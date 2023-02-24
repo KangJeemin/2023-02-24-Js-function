@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<script>
+  let lubin = 1;
+  console.log(lubin);
+  lubin = "바보";
+  console.log(lubin);
+
+  function valueChange(a,b,c) {
+    if(typeof(a)==="string"){
+      if(typeof(b)=="string"){
+        if(typeof(c)=="string"){
+          return a + b + "안녕하세요"; 
+          
+        }
+      }
+    } 
+  }
+  lubin = valueChange("가나","다라","마바");
+  console.log(lubin);
+</script>
+</body>
+</html>
